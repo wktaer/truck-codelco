@@ -6,7 +6,7 @@ import { ZoomIn, ChevronLeft, ChevronRight, Close } from '@mui/icons-material';
 const truckViews = [
   {
     id: 'front',
-    image: '/interactive-truckV1/truck-front.svg',
+    image: 'truck-front.svg',
     hotspots: [
       { id: 'engine', title: 'Motor', description: 'Motor de alta potencia con tecnología avanzada', position: { top: '65%', left: '50%' } },
       { id: 'lights', title: 'Luces', description: 'Sistema de iluminación LED de alta intensidad', position: { top: '42%', left: '38%' } },
@@ -14,7 +14,7 @@ const truckViews = [
   },
   {
     id: 'side',
-    image: '/interactive-truckV1/truck-side.svg',
+    image: 'truck-side.svg',
     hotspots: [
       { id: 'wheels', title: 'Ruedas', description: 'Neumáticos de alta resistencia para todo terreno', position: { top: '67%', left: '35%' } },
       { id: 'cabin', title: 'Cabina', description: 'Cabina ergonómica con controles intuitivos', position: { top: '45%', left: '85%' } },
@@ -22,7 +22,7 @@ const truckViews = [
   },
   {
     id: 'back',
-    image: '/interactive-truckV1/truck-back.svg',
+    image: 'truck-back.svg',
     hotspots: [
       { id: 'cargo', title: 'Área de Carga', description: 'Amplio espacio de carga con sistema de seguridad', position: { top: '45%', left: '50%' } },
       { id: 'exhaust', title: 'Sistema de Escape', description: 'Sistema de escape optimizado para reducir emisiones', position: { top: '71%', left: '25%' } },
@@ -339,7 +339,7 @@ function App() {
           }}>
             <Box
               component="img"
-              src="/truck-front.svg"
+              src="/interactive-truckV1/truck-front.svg"
               sx={{
                 width: '100%',
                 height: '100%',
@@ -358,7 +358,7 @@ function App() {
           }}>
             <Box
               component="img"
-              src="/truck-side.svg"
+              src="/interactive-truckV1/truck-side.svg"
               sx={{
                 width: '100%',
                 height: '100%',
@@ -377,7 +377,7 @@ function App() {
           }}>
             <Box
               component="img"
-              src="/truck-back.svg"
+              src="/interactive-truckV1/truck-back.svg"
               sx={{
                 width: '100%',
                 height: '100%',

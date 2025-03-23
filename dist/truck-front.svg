@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cabina principal -->
+  <rect x="250" y="200" width="300" height="200" fill="#2b2b2b" rx="20"/>
+  
+  <!-- Parrilla frontal -->
+  <rect x="275" y="300" width="250" height="80" fill="#1a1a1a" rx="10"/>
+  <line x1="285" y1="310" x2="515" y2="310" stroke="#3a3a3a" stroke-width="4"/>
+  <line x1="285" y1="330" x2="515" y2="330" stroke="#3a3a3a" stroke-width="4"/>
+  <line x1="285" y1="350" x2="515" y2="350" stroke="#3a3a3a" stroke-width="4"/>
+  <line x1="285" y1="370" x2="515" y2="370" stroke="#3a3a3a" stroke-width="4"/>
+  
+  <!-- Luces -->
+  <circle cx="300" cy="250" r="30" fill="#ffeb3b"/>
+  <circle cx="500" cy="250" r="30" fill="#ffeb3b"/>
+  
+  <!-- Parabrisas -->
+  <path d="M275 180 L525 180 L500 100 L300 100 Z" fill="#90caf9" opacity="0.8"/>
+  
+  <!-- Detalles del motor (representación simplificada) -->
+  <rect x="290" y="400" width="220" height="40" fill="#424242" rx="5"/>
+  
+  <!-- Ruedas -->
+  <circle cx="200" cy="450" r="50" fill="#1a1a1a" stroke="#424242" stroke-width="10"/>
+  <circle cx="600" cy="450" r="50" fill="#1a1a1a" stroke="#424242" stroke-width="10"/>
+</svg>
