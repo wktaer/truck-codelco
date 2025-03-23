@@ -6,7 +6,7 @@ import { ZoomIn, ChevronLeft, ChevronRight, Close } from '@mui/icons-material';
 const truckViews = [
   {
     id: 'front',
-    image: './truck-front.svg',
+    image: '/interactive-truckV1/truck-front.svg',
     hotspots: [
       { id: 'engine', title: 'Motor', description: 'Motor de alta potencia con tecnología avanzada', position: { top: '65%', left: '50%' } },
       { id: 'lights', title: 'Luces', description: 'Sistema de iluminación LED de alta intensidad', position: { top: '42%', left: '38%' } },
@@ -14,7 +14,7 @@ const truckViews = [
   },
   {
     id: 'side',
-    image: './truck-side.svg',
+    image: '/interactive-truckV1/truck-side.svg',
     hotspots: [
       { id: 'wheels', title: 'Ruedas', description: 'Neumáticos de alta resistencia para todo terreno', position: { top: '67%', left: '35%' } },
       { id: 'cabin', title: 'Cabina', description: 'Cabina ergonómica con controles intuitivos', position: { top: '45%', left: '85%' } },
@@ -22,7 +22,7 @@ const truckViews = [
   },
   {
     id: 'back',
-    image: './truck-back.svg',
+    image: '/interactive-truckV1/truck-back.svg',
     hotspots: [
       { id: 'cargo', title: 'Área de Carga', description: 'Amplio espacio de carga con sistema de seguridad', position: { top: '45%', left: '50%' } },
       { id: 'exhaust', title: 'Sistema de Escape', description: 'Sistema de escape optimizado para reducir emisiones', position: { top: '71%', left: '25%' } },
